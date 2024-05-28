@@ -1,0 +1,101 @@
+
+
+  .frameItem {
+    position: absolute;
+    border-radius: 20px;
+    top: 30px;
+    left: 30px;
+    box-shadow: 0 0 8px #9d7f4a;
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.5) inset; */
+    background: linear-gradient(-39.34deg, #896e3e, #d2ae6d 57.75%, #e4d1ae);
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+  }
+  .rectangleParent {
+    position: relative;
+    /* z-index: 1; */
+  }
+  .bgParent {
+    align-self: stretch;
+    height: 583px;
+    box-shadow: 14px 14px 40px rgba(17, 17, 18, 0.75);
+    border-radius: var(--br-5xs);
+    background: linear-gradient(138.69deg, #30363c, #1e2023);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-18xl) var(--padding-15xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .maskIcon {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+  }
+  .book {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+    bottom: 80px;
+    left: 50px
+  }
+  .climateMask,
+  .maskParent {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .maskParent {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: var(--padding-41xl) var(--padding-38xl) var(--padding-41xl-4)
+      var(--padding-39xl);
+    box-sizing: border-box;
+    position: relative;
+    min-height: 462px;
+    margin-top: -400px;
+  }
+  
+  .climateMask {
+    width: 390px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    font-size: var(--font-size-45xl);
+    color: var(--color-white);
+    font-family: var(--font-jacques-francois);
+    cursor: pointer;
+  }
+  @media screen and (max-width: 900px) {
+    .book {
+      font-size: var(--font-size-32xl);
+      line-height: 49px;
+    }
+    .maskParent {
+      padding-left: var(--padding-10xl);
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .book {
+      font-size: var(--font-size-19xl);
+      line-height: 37px;
+    }
+  }
+  

@@ -1,0 +1,221 @@
+.logo {
+  align-self: stretch;
+  position: relative;
+  max-width: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.heading {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  justify-content: center; /* Centers content horizontally */
+
+}
+
+.rectangleParent {
+  padding: var(--padding-lgi) var(--padding-12xl) var(--padding-lg) var(--padding-23xl-7);
+  box-shadow: -6.2px -6.2px 18.67px rgba(176, 179, 181, 0.3),
+    6.2px 6.2px 18.67px #000;
+  border-radius: 25px;
+  background-color: var(--color-darkslategray-200);
+  font-size: var(--font-size-subtitle);
+  font-family: var(--font-montserrat);
+  gap: 40px;
+}
+
+.helpChild {
+  cursor: pointer;
+  /* position: relative; */
+  box-shadow: -6.2px -6.2px 18.67px #3b4451, 6.2px 6.2px 18.67px #000;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkslategray-200);
+  /* border: 0; */
+  padding: 8px 20px;
+}
+
+.helpActive {
+  cursor: pointer;
+  /* position: relative; */
+  box-shadow: -6.2px -6.2px 18.67px #3b4451, 6.2px 6.2px 18.67px #000;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkslategray-200);
+  padding: 8px 20px;
+}
+
+/* .helpWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) var(--padding-4xl-9) 0 0;
+} */
+.helpItem {
+  color: white;
+}
+
+.helpItemActive {
+  color: #D2AE6C;
+}
+
+
+
+.lockBtnIcon {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(2.1);
+}
+.wrapperLockBtn {
+  width: 58px;
+  height: 58px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardFlipPair {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+
+
+.message,
+.messageWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.message {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-27xl-7) var(--padding-5xs-9);
+  background-color: var(--color-darkslategray-200);
+  box-shadow: -6.2px -6.2px 18.67px #3b4451, 6.2px 6.2px 18.67px #000;
+  border-radius: var(--br-26xl);
+  flex-direction: row;
+  z-index: 1;
+}
+.messageWrapper {
+  flex: 0.973;
+  flex-direction: column;
+  padding: var(--padding-10xs) var(--padding-10xl-8) 0 0;
+}
+.dashboardChild {
+  height: 50.6px;
+  width: 212.8px;
+  position: relative;
+  box-shadow: -6.2px -6.2px 6.22px #3b4451 inset, 3.7px 3.7px 6.22px #000 inset;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkslategray-200);
+  display: none;
+}
+/* .lawyer {
+  position: relative;
+  font-size: var(--font-size-9xl);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-burlywood-100);
+  text-align: left;
+  min-width: 106px;
+  z-index: 1;
+} */
+
+
+.dashboard,
+.dashboardWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dashboard {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs-2) var(--padding-34xl-1) var(--padding-4xs-4)
+    var(--padding-34xl-7);
+  background-color: var(--color-darkslategray-200);
+  box-shadow: -6.2px -6.2px 6.22px #3b4451 inset, 3.7px 3.7px 6.22px #000 inset;
+  border-radius: var(--br-26xl);
+  flex-direction: row;
+  z-index: 1;
+}
+.dashboard:hover {
+  background-color: var(--color-dimgray);
+}
+.dashboardWrapper {
+  flex: 0.9986;
+  flex-direction: column;
+  padding: var(--padding-10xs) var(--padding-5xl-2) 0 0;
+}
+
+
+
+
+.helpContainer {
+  flex-direction: column;
+  padding: var(--padding-10xs) var(--padding-lgi-2) 0 0;
+}
+
+.lockBtnIcon1 {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(2.881);
+}
+.wrapperLockBtn1 {
+  height: 58px;
+  width: 58px;
+  position: relative;
+  min-height: 58px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+/* .frameWrapper {
+  height: 96px;
+} */
+
+.lawFirmLogoParent,
+.laywersInner {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.lawFirmLogoParent {
+  /* width: 1643.5px; */
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: var(--padding-top);
+}
+.laywersInner {
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-burlywood-200);
+  font-family: var(--font-jacques-francois);
+}

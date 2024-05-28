@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-jacques-francois: "Jacques Francois";
+  --font-montserrat: Montserrat;
+  --font-raleway: Raleway;
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-3xl: 22px;
+  --font-size-10xl: 29px;
+  --font-size-title: 56px;
+  --font-size-29xl: 48px;
+  --font-size-subtitle: 16px;
+  --font-size-13xl: 32px;
+  --font-size-45xl: 64px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-19xl: 38px;
+  --font-size-32xl: 51px;
+
+  /* Colors */
+  --color-burlywood-100: #d2ae6d;
+  --color-burlywood-200: #d2ae6c;
+  --color-white: #fff;
+  --color-darkslategray-100: #2d3034;
+  --color-darkslategray-200: #2c2f33;
+  --color-dimgray: #5e6166;
+  --color-gray: rgba(255, 255, 255, 0.75);
+
+  /* Gaps */
+  --gap-85xl: 104px;
+  --gap-33xl: 52px;
+  --gap-7xl: 26px;
+  --gap-3xl: 22px;
+  --gap-50xl: 69px;
+  --gap-15xl: 34px;
+  --gap-mid: 17px;
+  --gap-xl: 20px;
+  --gap-xs-5: 11.5px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-lgi: 19px;
+  --padding-6xl: 25px;
+  --padding-top: 45px;
+  --padding-271xl: 290px;
+  --padding-126xl: 145px;
+  --padding-32xl: 51px;
+  --padding-20xl-8: 39.8px;
+  --padding-12xl: 31px;
+  --padding-lg: 18px;
+  --padding-23xl-7: 42.7px;
+  --padding-2xl: 21px;
+  --padding-12xs: 1px;
+  --padding-10xs: 3px;
+  --padding-lgi-2: 19.2px;
+  --padding-5xs: 8px;
+  --padding-20xl: 39px;
+  --padding-5xs-9: 7.9px;
+  --padding-xs: 12px;
+  --padding-4xl-9: 23.9px;
+  --padding-27xl-7: 46.7px;
+  --padding-5xl-2: 24.2px;
+  --padding-10xl-8: 29.8px;
+  --padding-4xs-2: 8.2px;
+  --padding-22xl-3: 41.3px;
+  --padding-4xs-4: 8.4px;
+  --padding-88xl: 107px;
+  --padding-68xl: 87px;
+  --padding-9xl-5: 28.5px;
+  --padding-53xl: 72px;
+  --padding-mid: 17px;
+  --padding-6xl-5: 25.5px;
+  --padding-base: 16px;
+  --padding-11xl-5: 30.5px;
+  --padding-3xs: 10px;
+  --padding-34xl-1: 53.1px;
+  --padding-34xl-7: 53.7px;
+  --padding-29xl: 48px;
+  --padding-14xl: 33px;
+  --padding-46xl: 65px;
+  --padding-28xl: 47px;
+  --padding-5xl: 24px;
+  --padding-8xl: 27px;
+  --padding-36xl: 55px;
+  --padding-15xl: 34px;
+  --padding-3xl: 22px;
+  --padding-7xs: 6px;
+  --padding-148xl: 167px;
+  --padding-90xl: 109px;
+  --padding-7xl: 26px;
+  --padding-sm: 14px;
+  --padding-smi: 13px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-21xl: 40px;
+  --br-71xl: 90px;
+  --br-5xl-9: 24.9px;
+  --br-26xl: 45px;
+  --br-smi: 13px;
+  --br-11xl: 30px;
+}
+
+.logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.background {
+  min-height: 100vh; /* This sets the minimum height to 100% of the viewport height */
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #373540, #16171b);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.comingsoon {
+  font-family: var(--font-jacques-francois);
+  font-size: var(--font-size-32xl);
+  color: var(--color-white);
+  margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+
+.vol31No {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.div {
+    position: absolute;
+    top: 51px;
+    left: 487px;
+    color: #c3bba6;
+}
+.hajiMohdNaim {
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    color: #7f8489;
+}
+.info {
+    position: absolute;
+    top: 41px;
+    left: 40px;
+    width: 595px;
+    height: 75px;
+}
+
+.fastSettings {
+    margin: 15px;
+    width: 100%;
+    position: relative;
+    height: 144px;
+    cursor: pointer;
+    text-align: left;
+    /* font-size: 15px; */
+    color: #fff;
+    font-family: Lato;
+    box-shadow: 0px -6px 20px rgba(209, 174, 110, 0.3);
+    border-radius: 50px 50px 60px 60px;
+    background: linear-gradient(180deg, #353a40, #16171b);
+    border: 2px solid #424750;
+    box-sizing: border-box;
+}
+

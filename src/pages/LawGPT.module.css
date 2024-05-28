@@ -1,0 +1,42 @@
+.glass {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  transform: scale(1.301);
+}
+
+
+.wrapperRectangle1 {
+  position: absolute;
+  top: 91.7px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  width: 563px;
+  height: 337.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.xd{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frameWrapper
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* align-self: center; */
+  justify-content: center;
+  max-width: 100%;
+  height: 468px;
+  width: 477px;
+  position: relative;
+}

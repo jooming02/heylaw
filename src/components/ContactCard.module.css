@@ -1,0 +1,176 @@
+.frameChild {
+  width: 300px;
+  height: 324px;
+  position: relative;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),
+    9px 9px 19px -5px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-39.34deg, #896e3e, #d2ae6d 57.75%, #e4d1ae);
+  display: none;
+}
+.wrapperGroup46Child {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  transform: scale(1.354);
+}
+.wrapperGroup46,
+.wrapperGroup46Wrapper {
+  height: 99px;
+  display: flex;
+  justify-content: center;
+}
+.wrapperGroup46 {
+  width: 99px;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+}
+.wrapperGroup46Wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.span {
+  letter-spacing: -0.11em;
+}
+.daveDuggal {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  z-index: 1;
+}
+.daveDuggalWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 var(--padding-7xl);
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),
+    9px 9px 19px -5px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    180deg,
+    rgba(55, 53, 64, 0.3),
+    rgba(22, 23, 27, 0.3)
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.mailIcon,
+.phoneIcon {
+  position: absolute;
+  top: 119px;
+  left: 53px;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+  z-index: 2;
+}
+.phoneIcon {
+  top: 90px;
+  left: 54px;
+  width: 20px;
+  height: 20px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 288px;
+  height: 152px;
+}
+.rajaDarryl {
+  margin: 0;
+}
+.yearsExperiences {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.p {
+  margin: 0;
+}
+.dave8hotmailcom {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.rajaDarrylContainer {
+  position: absolute;
+  top: 30px;
+  left: 17px;
+  letter-spacing: -0.05em;
+  line-height: 28px;
+  display: inline-block;
+  width: 240px;
+  height: 149px;
+  z-index: 3;
+  font-size: medium;
+}
+.frameParent {
+  align-self: stretch;
+  height: 179px;
+  position: relative;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-jacques-francois);
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  height: 324px;
+  flex: 1;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),
+    9px 9px 19px -5px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-39.34deg, #896e3e, #d2ae6d 57.75%, #e4d1ae);
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-7xs) var(--padding-148xl);
+  gap: var(--gap-xs-5);
+}
+.frameWrapper {
+  width: 300px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xl);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 800px) {
+  .rectangleParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .daveDuggal {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .rajaDarrylContainer {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

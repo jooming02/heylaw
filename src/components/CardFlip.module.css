@@ -1,0 +1,64 @@
+.backIcon {
+  border-radius: var(--br-21xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.backIcon,
+.backParent,
+.frontIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 15px;
+}
+.frontIcon {
+  border-radius: var(--br-21xl);
+  max-width: 90%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.backParent {
+  margin: 0 !important;
+}
+.aviation,
+.cardflip {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+}
+.aviation {
+  /* width: 360px; */
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+  font-size: 28px;
+}
+.cardflip {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-88xl) var(--padding-xl) var(--padding-88xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  min-height: 289px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-jacques-francois);
+}
+@media screen and (max-width: 750px) {
+  .aviation {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aviation {
+    font-size: 24px;
+  }
+}
